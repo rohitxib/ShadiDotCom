@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9A7340D2D391D51004D1070 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A7340B2D391D51004D1070 /* Person+CoreDataClass.swift */; };
+		F9A7340E2D391D51004D1070 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A7340C2D391D51004D1070 /* Person+CoreDataProperties.swift */; };
+		F9C8829D2D382A5600C6F386 /* ShadiDotComApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C8829C2D382A5600C6F386 /* ShadiDotComApp.swift */; };
+		F9C8829F2D382A5600C6F386 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C8829E2D382A5600C6F386 /* ContentView.swift */; };
+		F9C882A12D382A5800C6F386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C882A02D382A5800C6F386 /* Assets.xcassets */; };
+		F9C882A42D382A5800C6F386 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C882A32D382A5800C6F386 /* Preview Assets.xcassets */; };
+		F9C882A92D382A5800C6F386 /* ShadiDotCom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9C882A72D382A5800C6F386 /* ShadiDotCom.xcdatamodeld */; };
+		F9C882B22D38309C00C6F386 /* CandidateListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C882B12D38309C00C6F386 /* CandidateListModel.swift */; };
+		F9C882B42D38349E00C6F386 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C882B32D38349E00C6F386 /* Model.swift */; };
+		F9C882B62D383AFA00C6F386 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C882B52D383AFA00C6F386 /* NetworkManager.swift */; };
+		F9C882B82D383C2A00C6F386 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C882B72D383C2A00C6F386 /* UserListView.swift */; };
+		F9C882BE2D383D1000C6F386 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C882BD2D383D1000C6F386 /* CardView.swift */; };
+		F9C882C22D3848A400C6F386 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C882C12D3848A400C6F386 /* Persistence.swift */; };
+		F9C882C42D38497C00C6F386 /* DbManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C882C32D38497C00C6F386 /* DbManager.swift */; };
+		F9C882C72D3850D600C6F386 /* CodableExtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C882C62D3850D600C6F386 /* CodableExtn.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9A7340B2D391D51004D1070 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F9A7340C2D391D51004D1070 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F9C882992D382A5600C6F386 /* ShadiDotCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadiDotCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C8829C2D382A5600C6F386 /* ShadiDotComApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadiDotComApp.swift; sourceTree = "<group>"; };
+		F9C8829E2D382A5600C6F386 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9C882A02D382A5800C6F386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9C882A32D382A5800C6F386 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9C882A82D382A5800C6F386 /* ShadiDotCom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShadiDotCom.xcdatamodel; sourceTree = "<group>"; };
+		F9C882B12D38309C00C6F386 /* CandidateListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateListModel.swift; sourceTree = "<group>"; };
+		F9C882B32D38349E00C6F386 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F9C882B52D383AFA00C6F386 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F9C882B72D383C2A00C6F386 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		F9C882BD2D383D1000C6F386 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F9C882BF2D38409700C6F386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F9C882C12D3848A400C6F386 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F9C882C32D38497C00C6F386 /* DbManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DbManager.swift; sourceTree = "<group>"; };
+		F9C882C62D3850D600C6F386 /* CodableExtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExtn.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9C882962D382A5600C6F386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9C882902D382A5600C6F386 = {
+			isa = PBXGroup;
+			children = (
+				F9C8829B2D382A5600C6F386 /* ShadiDotCom */,
+				F9C8829A2D382A5600C6F386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9C8829A2D382A5600C6F386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9C882992D382A5600C6F386 /* ShadiDotCom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9C8829B2D382A5600C6F386 /* ShadiDotCom */ = {
+			isa = PBXGroup;
+			children = (
+				F9C882C52D3850B400C6F386 /* Extention */,
+				F9C882C02D38487C00C6F386 /* Local_DB */,
+				F9C882BF2D38409700C6F386 /* Info.plist */,
+				F9C882BC2D383CDF00C6F386 /* Models */,
+				F9C882BB2D383CB600C6F386 /* Network */,
+				F9C882BA2D383C9700C6F386 /* ViewModels */,
+				F9C882B92D383C6700C6F386 /* Views */,
+				F9C8829C2D382A5600C6F386 /* ShadiDotComApp.swift */,
+				F9C8829E2D382A5600C6F386 /* ContentView.swift */,
+				F9C882A02D382A5800C6F386 /* Assets.xcassets */,
+				F9C882A72D382A5800C6F386 /* ShadiDotCom.xcdatamodeld */,
+				F9C882A22D382A5800C6F386 /* Preview Content */,
+			);
+			path = ShadiDotCom;
+			sourceTree = "<group>";
+		};
+		F9C882A22D382A5800C6F386 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F9C882A32D382A5800C6F386 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9C882B92D383C6700C6F386 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9C882B72D383C2A00C6F386 /* UserListView.swift */,
+				F9C882BD2D383D1000C6F386 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9C882BA2D383C9700C6F386 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F9C882B12D38309C00C6F386 /* CandidateListModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F9C882BB2D383CB600C6F386 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F9C882B52D383AFA00C6F386 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F9C882BC2D383CDF00C6F386 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F9C882B32D38349E00C6F386 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F9C882C02D38487C00C6F386 /* Local_DB */ = {
+			isa = PBXGroup;
+			children = (
+				F9A7340B2D391D51004D1070 /* Person+CoreDataClass.swift */,
+				F9A7340C2D391D51004D1070 /* Person+CoreDataProperties.swift */,
+				F9C882C12D3848A400C6F386 /* Persistence.swift */,
+				F9C882C32D38497C00C6F386 /* DbManager.swift */,
+			);
+			path = Local_DB;
+			sourceTree = "<group>";
+		};
+		F9C882C52D3850B400C6F386 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				F9C882C62D3850D600C6F386 /* CodableExtn.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9C882982D382A5600C6F386 /* ShadiDotCom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C882AC2D382A5800C6F386 /* Build configuration list for PBXNativeTarget "ShadiDotCom" */;
+			buildPhases = (
+				F9C882952D382A5600C6F386 /* Sources */,
+				F9C882962D382A5600C6F386 /* Frameworks */,
+				F9C882972D382A5600C6F386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadiDotCom;
+			productName = ShadiDotCom;
+			productReference = F9C882992D382A5600C6F386 /* ShadiDotCom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9C882912D382A5600C6F386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F9C882982D382A5600C6F386 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F9C882942D382A5600C6F386 /* Build configuration list for PBXProject "ShadiDotCom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9C882902D382A5600C6F386;
+			productRefGroup = F9C8829A2D382A5600C6F386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9C882982D382A5600C6F386 /* ShadiDotCom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9C882972D382A5600C6F386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C882A42D382A5800C6F386 /* Preview Assets.xcassets in Resources */,
+				F9C882A12D382A5800C6F386 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9C882952D382A5600C6F386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C882B42D38349E00C6F386 /* Model.swift in Sources */,
+				F9C882B82D383C2A00C6F386 /* UserListView.swift in Sources */,
+				F9C8829F2D382A5600C6F386 /* ContentView.swift in Sources */,
+				F9C882BE2D383D1000C6F386 /* CardView.swift in Sources */,
+				F9C8829D2D382A5600C6F386 /* ShadiDotComApp.swift in Sources */,
+				F9C882C42D38497C00C6F386 /* DbManager.swift in Sources */,
+				F9C882B62D383AFA00C6F386 /* NetworkManager.swift in Sources */,
+				F9C882C72D3850D600C6F386 /* CodableExtn.swift in Sources */,
+				F9A7340D2D391D51004D1070 /* Person+CoreDataClass.swift in Sources */,
+				F9C882A92D382A5800C6F386 /* ShadiDotCom.xcdatamodeld in Sources */,
+				F9A7340E2D391D51004D1070 /* Person+CoreDataProperties.swift in Sources */,
+				F9C882B22D38309C00C6F386 /* CandidateListModel.swift in Sources */,
+				F9C882C22D3848A400C6F386 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F9C882AA2D382A5800C6F386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9C882AB2D382A5800C6F386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9C882AD2D382A5800C6F386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShadiDotCom/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShadiDotCom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.product.ShadiDotCom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9C882AE2D382A5800C6F386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShadiDotCom/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShadiDotCom/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.product.ShadiDotCom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9C882942D382A5600C6F386 /* Build configuration list for PBXProject "ShadiDotCom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C882AA2D382A5800C6F386 /* Debug */,
+				F9C882AB2D382A5800C6F386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9C882AC2D382A5800C6F386 /* Build configuration list for PBXNativeTarget "ShadiDotCom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C882AD2D382A5800C6F386 /* Debug */,
+				F9C882AE2D382A5800C6F386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9C882A72D382A5800C6F386 /* ShadiDotCom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9C882A82D382A5800C6F386 /* ShadiDotCom.xcdatamodel */,
+			);
+			currentVersion = F9C882A82D382A5800C6F386 /* ShadiDotCom.xcdatamodel */;
+			path = ShadiDotCom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F9C882912D382A5600C6F386 /* Project object */;
+}
